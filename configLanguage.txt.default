@@ -1,0 +1,24 @@
+[General]
+# Time to wait (seconds) between checking mismatched entries. Minimum 2 required
+wait_between_add = 2
+
+# Full path to log file
+log_path = ./output.log
+
+# DEBUG, INFO, VERBOSE | Logging level.
+log_level = INFO
+
+# Check The Movie DB original langauge [ON|OFF] | Currently only works with TMDB ON, you will need an apikey
+tmdb_check = ON
+tmdb_key =
+
+# You must use ISO 2 letter Language Code - https://www.sitepoint.com/iso-2-letter-language-codes/
+language_required = English
+Language_iso = en
+
+# Set to true to remove movies missing [language_required] audio, even if their original language is not that language
+remove_foreign = true
+
+[radarr_pro]
+url = http://localhost:8989
+key = 
