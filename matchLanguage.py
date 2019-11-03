@@ -8,7 +8,7 @@ import argparse
 import shutil
 import time
 
-parser = argparse.ArgumentParser(description='RadarrSync. Sync two or more Radarr servers. https://github.com/Sperryfreak01/RadarrSync')
+parser = argparse.ArgumentParser(description='matchLanguage. scan one or more Radarr servers. Based on https://github.com/Sperryfreak01/RadarrSync')
 parser.add_argument('--config', action="store", type=str, help='Location of config file.')
 parser.add_argument('--debug', help='Enable debug logging.', action="store_true")
 parser.add_argument('--whatif', help="Read-Only. What would happen if I ran this. No posts are sent. Should be used with --debug", action="store_true")
